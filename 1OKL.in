@@ -1,0 +1,8 @@
+original_pdb 1OKL_fixed_H.pdb
+group_name 1OKL
+cut_off 2.8
+ion_ids 4018
+ion_mol2files ZN.mol2
+naa_mol2files MNS.mol2
+frcmod_files MNS.frcmod
+large_opt 1

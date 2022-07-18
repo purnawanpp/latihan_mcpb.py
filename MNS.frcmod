@@ -1,0 +1,26 @@
+Remark line goes here
+MASS
+
+BOND
+
+ANGLE
+ca-sy-n2   92.539     103.010   same as ca-sy-ne, penalty score=  2.8
+hn-n2-sy   48.367     111.170   same as hn-n2-s6, penalty score=  1.0
+
+DIHE
+hn-n2-sy-ca   3    1.500       180.000          -3.000      same as X -ne-sy-X 
+hn-n2-sy-ca   3   20.400       180.000           1.000      same as X -ne-sy-X , penalty score=160.5
+hn-n2-sy-o    3    1.500       180.000          -3.000      same as X -ne-sy-X 
+hn-n2-sy-o    3   20.400       180.000           1.000      same as X -ne-sy-X , penalty score=160.5
+
+IMPROPER
+ca-ca-ca-sy         1.1          180.0         2.0          Using the default value
+ca-ca-ca-ha         1.1          180.0         2.0          Using general improper torsional angle  X- X-ca-ha, penalty score=  6.0)
+ca-ca-ca-ca         1.1          180.0         2.0          Using the default value
+ca-ca-ca-nh         1.1          180.0         2.0          Using the default value
+c3-c3-nh-ca         1.1          180.0         2.0          Using the default value
+
+NONBON
+
+
+

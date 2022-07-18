@@ -1,0 +1,12 @@
+@<TRIPOS>MOLECULE
+ZN1
+    1     0     1     0     0
+SMALL
+RESP Charge
+ 
+ 
+@<TRIPOS>ATOM
+      1 ZN         -6.6660   -1.6920   15.4460 M1        1 ZN1      0.433482
+@<TRIPOS>BOND
+@<TRIPOS>SUBSTRUCTURE
+     1 ZN1         1 TEMP              0 ****  ****    0 ROOT
