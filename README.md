@@ -3,7 +3,7 @@ latihan mcpb dimana diperoleh data berikut:
 1. File yang dibutuhkan tahap 2 MCPB.py -i 1OKL.in -s 2 yaitu file 1OKL_small_opt.fchk file tersebut adalah file gaussian
 2. File yang dibutuhkan tahap 3 MCPB.py -i 1OKL.in -s 3 mcpb.py1OKL_large_mk.log merupakan data log dari Perform the Merz-Kollman RESP charge calculation for the large model
 
-# Ubah amber format ke Gromacs
+# Ubah amber format ke Gromacs (dalam satu baris perintah jupyter notebook)
 1. import parmed as pmd
 2. #amber = pmd.load_file('prmtop', 'inpcrd')
 3. amber = pmd.load_file('1OKL_solv.prmtop', '1OKL_solv.inpcrd')
