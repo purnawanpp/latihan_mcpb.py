@@ -20,3 +20,6 @@ Latihan mcpb dimana diperoleh data berikut:
 6. gmx mdrun -v -s npt.tpr -deffnm npt &
 7. gmx grompp -f md.mdp -c npt.gro -t npt.cpt -p gromacs.top -o md.tpr
 8. gmx mdrun -v -s md.tpr -deffnm md &
+
+# Catatan:
+1. Metode optimasi geometri dan Force konstan dapat diganti dengan metode semi empirik pm6, tetapi metode Merz-Kollman harus menggunakan DFT/SCF
