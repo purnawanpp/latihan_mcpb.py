@@ -9,7 +9,7 @@ Latihan mcpb dimana diperoleh data berikut:
 2. File yang dibutuhkan tahap 3 MCPB.py -i 1OKL.in -s 3 mcpb.py yaitu 1OKL_large_mk.log merupakan data log dari Perform the Merz-Kollman RESP charge calculation for the large model
 
 # Ubah amber format ke Gromacs (dalam satu baris perintah jupyter notebook)
-1. jalankan script python ini di jupyter notebook https://github.com/purnawanpp/latihan_mcpb.py/blob/main/Parmed_AmbertoGromacs.ipynb
+1. Jalankan script python ini di jupyter notebook https://github.com/purnawanpp/latihan_mcpb.py/blob/main/Parmed_AmbertoGromacs.ipynb
 
 
 # Running Gromacs (using terminal)
