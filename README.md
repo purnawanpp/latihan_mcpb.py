@@ -12,7 +12,7 @@ Latihan mcpb dimana diperoleh data berikut:
 1. Jalankan script python ini di jupyter notebook https://github.com/purnawanpp/latihan_mcpb.py/blob/main/Parmed_AmbertoGromacs.ipynb
 
 # Mengecek apakah logam ZN sudah benar dengan perintah:
-1. parmed -i mcpbpy_parmed.in -p 1OKL_solv.prmtop -c 1OKL_solv.inpcrd
+1. parmed -i mcpbpy_parmed.in -p 1OKL_solv.prmtop -c 1OKL_solv.inpcrd > check.txt
 
 
 
