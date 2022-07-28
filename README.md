@@ -11,6 +11,10 @@ Latihan mcpb dimana diperoleh data berikut:
 # Ubah amber format ke Gromacs (dalam satu baris perintah jupyter notebook)
 1. Jalankan script python ini di jupyter notebook https://github.com/purnawanpp/latihan_mcpb.py/blob/main/Parmed_AmbertoGromacs.ipynb
 
+# Mengecek apakah logam ZN sudah benar dengan perintah:
+1. parmed -i mcpbpy_parmed.in -p 1OKL_solv.prmtop -c 1OKL_solv.inpcrd
+
+
 
 # Running Gromacs (using terminal)
 1. gmx grompp -f min.mdp -c gromacs.gro -p gromacs.top -o em.tpr
