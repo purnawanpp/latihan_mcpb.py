@@ -27,7 +27,7 @@ Latihan mcpb dimana diperoleh data berikut:
 8. gmx mdrun -v -s md.tpr -deffnm md &
 
 # Analisis
-1. Baca file berikut: https://github.com/purnawanpp/latihan_mcpb.py/blob/main/mcpb.py.docx
+1. Baca file berikut: https://github.com/purnawanpp/latihan_mcpb.py/blob/main/mcpb.py.pdf
 
 
 # Catatan:
