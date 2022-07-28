@@ -1,5 +1,5 @@
 # Latihan menggunakan Molecular Dynamics Metal Ion menggunakan mcpb.py dari Amber #
-Pemisahan ligand dan Protein:
+Pemisahan Ligand dan Logam:
 1. cat 1OKL.pdb | awk '$1=="HETATM"' | awk '$4=="MNS"' > MNS.pdb
 2. cat 1OKL.pdb | awk '$1=="HETATM"' | awk '$4=="ZN"' > ZN.pdb
 
