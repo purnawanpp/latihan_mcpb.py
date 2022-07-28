@@ -23,7 +23,7 @@ Latihan mcpb dimana diperoleh data berikut:
 8. gmx mdrun -v -s md.tpr -deffnm md &
 
 # Catatan:
-1. Metode optimasi geometri dan Force konstan dapat diganti dengan metode dft dan basis set yang diinginkan, tetapi metode Merz-Kollman harus menggunakan DFT/SCF dan harus berhati-hati dengan perintah gaussian karena sering eror
+1. Metode optimasi geometri dan Force konstan dapat diganti dengan metode dft dan basis set yang diinginkan, tetapi metode Merz-Kollman harus menggunakan DFT/SCF dan harus berhati-hati dengan perintah gaussian karena potensi eror yang tinggi
 
 # Referensi
 1. http://ambermd.org/tutorials/advanced/tutorial20/mcpbpy.htm
