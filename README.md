@@ -27,43 +27,7 @@ Latihan mcpb dimana diperoleh data berikut:
 8. gmx mdrun -v -s md.tpr -deffnm md &
 
 # Analisis
-Analisis Hasil RMSD
-a.Penyiapan file trajectory untuk analisis:
-gmx trjconv -s md.tpr -f md.xtc -o analisis.xtc -pbc mol -ur compact
-
-b.Pilih "System” dengan cara ketik perintah angka (nol) diterminal:
-0
-
-2. Analisis RMSD sistem:
-gmx rms -s md.tpr -f analisis.xtc -o rmsd.xvg -tu ns
-
-a.Ketik angka empat pada terminal untuk memilih “Backbone”:
-4
-e.Selanjutnya ketik angka empat, pilih “Backbone” lagi 
-4
-
-
-f.Visualisasi dengan menggunakan grace dengan mengetikkan perintah ini di terminal:
-xmgrace rmsd.xvg
-
-Jika ingin memvisualisasikan RMSD Protein-Ligand yaitu dengan 
-gmx rms -s md.tpr -f analisis.xtc -o rmsd_pro_lig.xvg -tu ns 
-b.Ketik angka empat pada terminal untuk memilih “Protein”:
-1
-f.Selanjutnya ketik angka empat, pilih ligand “LIG”
-13
-Visualisasi dengan menggunakan grace dengan mengetikkan perintah ini di terminal:
-xmgrace rmsd_pro_lig.xvg
-
-
-6. Analisis Hasil RMSF
-a.Analisis RMSF sistem tiap Atom:
-gmx rmsf -s md.tpr -f analisis.xtc -o rmsf_atom.xvg
-
-b.Ketik angka empat pada terminal untuk memilih “Backbone”:
-4
-c.Visualisasi dengan menggunakan grace dengan mengetikkan perintah ini di terminal:
-xmgrace rmsf_atom.xvg
+1. Baca file berikut: 
 
 
 # Catatan:
