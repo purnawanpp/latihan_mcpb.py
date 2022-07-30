@@ -10,7 +10,7 @@ Latihan mcpb dimana diperoleh data berikut:
 # Mengecek apakah logam ZN sudah benar dengan perintah:
 1. parmed -i mcpbpy_parmed.in -p 1OKL_solv.prmtop -c 1OKL_solv.inpcrd > check.txt
 
-# Ubah amber format ke Gromacs (dalam satu baris perintah jupyter notebook)
+# Ubah format Amber ke Gromacs
 1. Jalankan script python ini di jupyter notebook https://github.com/purnawanpp/latihan_mcpb.py/blob/main/Parmed_AmbertoGromacs.ipynb
 
 # Running Gromacs (using terminal)
@@ -25,7 +25,6 @@ Latihan mcpb dimana diperoleh data berikut:
 
 # Analisis
 1. Baca file berikut: https://github.com/purnawanpp/latihan_mcpb.py/blob/main/mcpb.py.pdf
-
 
 # Catatan:
 1. Metode optimasi geometri dan Force konstan dapat diganti dengan metode dft dan basis set yang diinginkan, tetapi metode Merz-Kollman harus menggunakan DFT/SCF dan harus berhati-hati dengan perintah gaussian karena potensi eror yang tinggi
