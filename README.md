@@ -29,5 +29,14 @@ Latihan mcpb dimana diperoleh data berikut:
 # Catatan:
 1. Metode optimasi geometri dan Force konstan dapat diganti dengan metode dft dan basis set yang diinginkan, tetapi metode Merz-Kollman harus menggunakan DFT/SCF dan harus berhati-hati dengan perintah gaussian karena potensi eror yang tinggi
 
+# Perhitungan MMGBSA
+1. gmx make_ndx -f MD.gro -o new_index.ndx
+2. Pilih Protein dan Ligand (MS1): 1|17 akan dihasilkan Protein_MS1
+3. Keluar dengan mengetik: q
+4. gmx trjconv -f md.xtc -o md_1_noPBC.xtc -s md.tpr -pbc mol -center -n new_index.ndx -ur compact
+5. Pilih Protein dan System yaitu 1 dan 0
+6. conda activate gmxMMPBSA
+7. gmx_MMPBSA -O -i mmgbsa.in -cs md.tpr -cp gromacs.top -ci new_index.ndx -cg 21 16 -ct md_1_noPBC.xtc
+
 # Referensi
 1. http://ambermd.org/tutorials/advanced/tutorial20/mcpbpy.htm
