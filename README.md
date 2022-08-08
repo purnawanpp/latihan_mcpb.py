@@ -31,7 +31,7 @@ Latihan mcpb dimana diperoleh data berikut:
 
 # Perhitungan MMGBSA
 1. gmx make_ndx -f md.gro -o new_index.ndx
-2. Pilih Protein dan Ligand (MS1): 1|17 akan dihasilkan Protein_MS1
+2. Pilih Protein dan Ligand (MS1): 1|13|14|15| akan dihasilkan Protein_HD1_HD2_HE1 :  4016 atoms
 3. Keluar dengan mengetik: q
 4. gmx trjconv -f md.xtc -o md_1_noPBC.xtc -s md.tpr -pbc mol -center -n new_index.ndx -ur compact
 5. Pilih Protein dan System yaitu 1 dan 0
