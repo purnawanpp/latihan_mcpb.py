@@ -1,4 +1,8 @@
 # Latihan menggunakan Molecular Dynamics Metal Ion menggunakan mcpb.py dari Amber #
+Video Penggunaan dapat dilihat dilink berikut:
+1. Video Part 1= https://www.youtube.com/watch?v=9hEwRAsSLrs&ab_channel=PurnawanPontanaPutra
+2. Video Part 2=
+
 Pemisahan Ligand dan Logam:
 1. cat 1OKL.pdb | awk '$1=="HETATM"' | awk '$4=="MNS"' > MNS.pdb
 2. cat 1OKL.pdb | awk '$1=="HETATM"' | awk '$4=="ZN"' > ZN.pdb
